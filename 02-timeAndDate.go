@@ -1,5 +1,5 @@
 //Author : Thomas Duffy
-//Date :
+//Date : 21/9/17
 
 //Adapted from : https://tour.golang.org/welcome/4
 

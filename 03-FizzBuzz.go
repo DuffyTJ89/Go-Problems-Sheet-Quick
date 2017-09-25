@@ -14,7 +14,7 @@ func main() {
 	var input int //create a variable called input 
 	fmt.Scanf("%d", &input) //read the user input and assign it to input variable 
 	
-	for i := 1; i <= input; i++ { //for loop to loop around to the user submitted end number
+	for i := 1; i <= input; i++ { //for loop to loop around to the user submitted end number and call the fizzbuzz function
 		fizzbuzz(i)	
 	}
 }//end main

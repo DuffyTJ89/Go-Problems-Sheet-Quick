@@ -1,7 +1,8 @@
 //Author : Thomas Duffy
 //Date : 26/9/17
 
-//Adapted from :
+//Adapted from : https://play.golang.org/p/yW7sAyJpPe
+//				 http://golang-jp.org/pkg/math/big/				
 package main
 
 
@@ -30,9 +31,9 @@ func main() {
 	sum := big.NewInt(0) //set up sum as a big int 
 	n := new (big.Int)//to store the factorial
 	fact := (factorial(100)) 
-	for fact.BitLen() > 0 {
-		_, n := fact.DivMod(fact, new(big.Int).SetUint64(uint64(10)), n)
-		sum = sum.Add(sum,n)
+	for fact.BitLen() > 0 { //loop through the bits until the end 
+		_, n := fact.DivMod(fact, new(big.Int).SetUint64(uint64(10)), n) //DivMod implements Euclidean division and modulus as per reference at the top. 
+		sum = sum.Add(sum,n) //add the numers for answer
 	} 
-	fmt.Println(sum)
+	fmt.Println(sum)// print answer
 }

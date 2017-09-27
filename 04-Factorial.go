@@ -25,7 +25,7 @@ func factorial(n int64) *big.Int { //get factorial of a number. can handle big n
 
 }
 
-//main calls factorial() and sums and prints the sum of digits
+
 func main() {
 	fmt.Println(factorial(100)) //print out the factorial of 100
 	sum := big.NewInt(0) //set up sum as a big int 

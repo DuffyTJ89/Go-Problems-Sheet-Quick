@@ -2,7 +2,7 @@
 //Date : 4/10/17
 
 //Adapted from : https://play.golang.org/p/Vq-TIHJCHE
-//				
+//what is rune : https://stackoverflow.com/questions/19310700/what-is-a-rune				
 
 package main
 

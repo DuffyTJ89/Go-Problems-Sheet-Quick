@@ -14,17 +14,10 @@ Go to website https://golang.org/dl/
 ## Running the tests
 
 >Write and save a file with the .go extension 
->Open cmd, Cmder or GitBash in the folder and type Go run "filename" e.g Go Run test.go. You can also build an executable by using the     Go Build command in the same way.
-
-
-
-
+>Open cmd, Cmder or GitBash in the folder 
+>Type Go run "filename" e.g Go Run test.go. 
+>You can also build an executable by using the Go Build command in the same way.
 
 ## Authors
 
 * **Thomas Duffy** .
-
-
-
-
-

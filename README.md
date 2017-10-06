@@ -26,7 +26,7 @@ Go to website https://golang.org/dl/
 
 ## List of problems solved
 
->1. Kon’nichiwa, Sekai!
+>1. Kon’nichiwa, Sekai!  
 Write a program that prints Hello, world! in Japanese (using Japanese characters) to the screen
 
 ## Authors

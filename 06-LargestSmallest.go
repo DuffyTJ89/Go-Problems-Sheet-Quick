@@ -25,6 +25,7 @@ func main() { //function to create a list of numbers
 		}
 	}
 	//print out largest and smallest 
+	fmt.Println("List of numbers used : ", x)
 	fmt.Println("The biggest number is ", biggest)
 	fmt.Println("The smallest number is ", smallest)
 }

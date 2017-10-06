@@ -24,6 +24,11 @@ Go to website https://golang.org/dl/
 
 >You can also build an executable by using the Go Build command in the same way.
 
+## List of problems solved
+
+>1. Kon’nichiwa, Sekai!
+Write a program that prints Hello, world! in Japanese (using Japanese characters) to the screen
+
 ## Authors
 
 * **Thomas Duffy** .
